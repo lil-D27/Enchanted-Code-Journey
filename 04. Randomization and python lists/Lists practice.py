@@ -24,3 +24,11 @@ print (states_of_america)
 #adding a list to the list
 states_of_america.extend(["Alaska", "Hawaii"])
 print (states_of_america)
+
+#nested lists
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen)
+states_of_america.extend(["Alaska", "Hawaii"])
+print (states_of_america)
